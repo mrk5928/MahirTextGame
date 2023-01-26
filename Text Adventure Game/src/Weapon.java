@@ -2,7 +2,7 @@ public class Weapon extends Item{
 
     private int damage;
 
-    public Weapon(String name, String description, int value, int i) {
+    public Weapon(String name, String description, int value, int damage) {
         super(name, description, value);
     }
 

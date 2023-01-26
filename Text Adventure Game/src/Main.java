@@ -1,9 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        Item first_item = new Item("Key", "Used to open Vaults", 5);
-        Item second_item = new Item("Mechanical Parts", "Resource obtained by from harvesting cars", 10);
-        Item third_item = new Item("MotorBoat", "Boat which is equipped with missiles.", 25);
-        Item fourth_item = new Item("The Mandalorian Jetpack", "Allows the player to hover or glide in the air for a short time. Unlimited Fuel", 30);
+        Gold goldbar = new Gold(5);
+        Weapon magicSword = new Weapon(
+                "Lightsaber",
+                "When opponent is blocking view, use it to destroy opponent by using laser power",
+                5, 50);
+        magicSword.setDamage(45);
+        int dvalue = magicSword.getDamage();
+        Sword superSword = new Sword();
+        Pillow softPillow = new Pillow();
+        Mace bigMace = new Mace();
+        Arrow big_arrow = new Arrow();
 
     }
 }
