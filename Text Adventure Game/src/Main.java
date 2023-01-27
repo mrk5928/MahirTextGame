@@ -12,11 +12,11 @@ public class Main {
         Mace bigMace = new Mace();
         Arrow big_arrow = new Arrow();
 
-        //System.out.println(goldbar);
-        //System.out.println(magicSword);
-        //System.out.println(superSword);
-        //System.out.println(bigMace);
-        //System.out.println(big_arrow);
+        System.out.println(goldbar);
+        System.out.println(magicSword);
+        System.out.println(superSword);
+        System.out.println(bigMace);
+        System.out.println(big_arrow);
 
     }
 }
