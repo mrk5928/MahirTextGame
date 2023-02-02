@@ -1,5 +1,5 @@
 public class Dog extends Enemy{
-    public Dog(String name, int hp, int damage) {
+    public Dog() {
         super("Dog", 24, 12);
     }
 }
