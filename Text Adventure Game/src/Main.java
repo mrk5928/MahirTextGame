@@ -34,5 +34,21 @@ public class Main {
         System.out.println("Enemy: " + bigSpider.name + "; HP: " + bigSpider.hp + "; Damage: " + bigSpider.damage);
         System.out.println("Enemy: " + chromeHusky.name + "; HP: " + chromeHusky.hp + "; Damage: " + chromeHusky.damage);
 
+
+        /*Gameboard gameboard = new Gameboard("Tic Tac Toe");
+        System.out.println(gameboard.name);
+
+        Player player1 = new Player("Joe", (short)100, (short)10, true);
+        if (player1.getLife())
+            System.out.println("Player is alive");
+        else
+            System.out.println("Player is not alive");
+
+        Player player2 = new Player("Jim", (short)0, (short)100, true);
+        if (player2.getLife())
+            System.out.println("Player is alive");
+        else
+            System.out.println("Player is not alive"); */
+
     }
 }
