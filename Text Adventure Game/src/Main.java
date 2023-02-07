@@ -20,11 +20,11 @@ public class Main {
         GiantSpider bigSpider = new GiantSpider();
         Husky chromeHusky = new Husky();
 
-        //System.out.println(goldbar);
-        //System.out.println(magicSword);
-        //System.out.println(superSword);
-        //System.out.println(bigMace);
-        //System.out.println(big_arrow);
+        System.out.println(goldbar);
+        System.out.println(magicSword);
+        System.out.println(superSword);
+        System.out.println(bigMace);
+        System.out.println(big_arrow);
 
         System.out.println("Enemy: " + greenOgre.name + "; HP: " + greenOgre.hp + "; Damage: " + greenOgre.damage);
         System.out.println("Enemy: " + redOgre.name + "; HP: " + redOgre.hp + "; Damage: " + redOgre.damage);
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Enemy: " + chromeHusky.name + "; HP: " + chromeHusky.hp + "; Damage: " + chromeHusky.damage);
 
 
-        /*Gameboard gameboard = new Gameboard("Tic Tac Toe");
+        Gameboard gameboard = new Gameboard("Tic Tac Toe");
         System.out.println(gameboard.name);
 
         Player player1 = new Player("Joe", (short)100, (short)10, true);
@@ -48,7 +48,8 @@ public class Main {
         if (player2.getLife())
             System.out.println("Player is alive");
         else
-            System.out.println("Player is not alive"); */
+            System.out.println("Player is not alive");
 
+        Wizzard wizzard = new Wizzard(Spells.Fireballs);
     }
 }
