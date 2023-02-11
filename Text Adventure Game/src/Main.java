@@ -12,7 +12,9 @@ public class Main {
         Mace bigMace = new Mace();
         Arrow big_arrow = new Arrow();
 
-        Enemy greenOgre = new Enemy("Green Ogre", 48, 42);
+        Enemy greenOgre = new Enemy("Green Ogre",
+                "Can turn into a giant monster when feels threatened. He is an excellent fighter as well.",
+                48, 42);
         Ogre redOgre = new Ogre();
         Zombie slowZombie = new Zombie();
         Zombie fastZombie = new Zombie("Fast Zombie", 40, 42);
@@ -26,13 +28,13 @@ public class Main {
         System.out.println(bigMace);
         System.out.println(big_arrow);
 
-        System.out.println("Enemy: " + greenOgre.name + "; HP: " + greenOgre.hp + "; Damage: " + greenOgre.damage);
-        System.out.println("Enemy: " + redOgre.name + "; HP: " + redOgre.hp + "; Damage: " + redOgre.damage);
-        System.out.println("Enemy: " + slowZombie.name + "; HP: " + slowZombie.hp + "; Damage: " + slowZombie.damage);
-        System.out.println("Enemy: " + fastZombie.name + "; HP: " + fastZombie.hp + "; Damage: " + fastZombie.damage);
-        System.out.println("Enemy: " + spotDog.name + "; HP: " + spotDog.hp + "; Damage: " + spotDog.damage);
-        System.out.println("Enemy: " + bigSpider.name + "; HP: " + bigSpider.hp + "; Damage: " + bigSpider.damage);
-        System.out.println("Enemy: " + chromeHusky.name + "; HP: " + chromeHusky.hp + "; Damage: " + chromeHusky.damage);
+        System.out.println("Enemy: " + greenOgre.name + "; Property: " + greenOgre.property + "; HP: " + greenOgre.hp + "; Damage: " + greenOgre.damage);
+        System.out.println("Enemy: " + redOgre.name + "; Property: " + redOgre.property + "; HP: " + redOgre.hp + "; Damage: " + redOgre.damage);
+        System.out.println("Enemy: " + slowZombie.name + "; Property: " + slowZombie.property +"; HP: " + slowZombie.hp + "; Damage: " + slowZombie.damage);
+        System.out.println("Enemy: " + fastZombie.name + "; Property: " + fastZombie.property + "; HP: " + fastZombie.hp + "; Damage: " + fastZombie.damage);
+        System.out.println("Enemy: " + spotDog.name + "; Property: " + spotDog.property + "; HP: " + spotDog.hp + "; Damage: " + spotDog.damage);
+        System.out.println("Enemy: " + bigSpider.name + "; Property: " + bigSpider.property + "; HP: " + bigSpider.hp + "; Damage: " + bigSpider.damage);
+        System.out.println("Enemy: " + chromeHusky.name + "; Property: " + chromeHusky.property + "; HP: " + chromeHusky.hp + "; Damage: " + chromeHusky.damage);
 
 
         Gameboard gameboard = new Gameboard("Tic Tac Toe");
