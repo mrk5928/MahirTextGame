@@ -1,6 +1,4 @@
 public class Action {
-
-    private final String name;
     private Method method;
     private char hotkey;
 
@@ -9,6 +7,10 @@ public class Action {
     }
     public void setHotkey(char hotkey) {
         this.hotkey = hotkey;
+    }
+    private String name;
+    public String getName(){
+        return name;
     }
     private Enemy kwargs;
 

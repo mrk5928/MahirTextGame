@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Weapons and Accessories that you need in this game are: \n");
         Gold goldbar = new Gold(5);
         Weapon magicSword = new Weapon(
                 "Lightsaber",
@@ -28,6 +29,8 @@ public class Main {
         System.out.println(bigMace);
         System.out.println(big_arrow);
 
+        System.out.println("Potential enemies that you may encounter in this game are: \n");
+
         System.out.println("Enemy: " + greenOgre.name + "; Property: " + greenOgre.property + "; HP: " + greenOgre.hp + "; Damage: " + greenOgre.damage);
         System.out.println("Enemy: " + redOgre.name + "; Property: " + redOgre.property + "; HP: " + redOgre.hp + "; Damage: " + redOgre.damage);
         System.out.println("Enemy: " + slowZombie.name + "; Property: " + slowZombie.property +"; HP: " + slowZombie.hp + "; Damage: " + slowZombie.damage);
@@ -36,6 +39,7 @@ public class Main {
         System.out.println("Enemy: " + bigSpider.name + "; Property: " + bigSpider.property + "; HP: " + bigSpider.hp + "; Damage: " + bigSpider.damage);
         System.out.println("Enemy: " + chromeHusky.name + "; Property: " + chromeHusky.property + "; HP: " + chromeHusky.hp + "; Damage: " + chromeHusky.damage);
 
+        System.out.println("\nGameboard\n");
 
         Gameboard gameboard = new Gameboard("Tic Tac Toe");
         System.out.println(gameboard.name);
@@ -53,5 +57,15 @@ public class Main {
             System.out.println("Player is not alive");
 
         Wizzard wizzard = new Wizzard(Spells.Fireballs);
+
+        MoveNorth moveNorth = new MoveNorth();
+        MoveSouth moveSouth = new MoveSouth();
+        MoveEast moveEast = new MoveEast();
+        MoveWest moveWest = new MoveWest();
+        ViewInventory viewInventory = new ViewInventory();
+        Flee flee = new Flee();
+        Attack myActionClass = new Attack();
+
+        
     }
 }
