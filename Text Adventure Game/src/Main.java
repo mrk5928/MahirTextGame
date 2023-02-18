@@ -65,7 +65,5 @@ public class Main {
         ViewInventory viewInventory = new ViewInventory();
         Flee flee = new Flee();
         Attack myActionClass = new Attack();
-
-        
     }
 }
