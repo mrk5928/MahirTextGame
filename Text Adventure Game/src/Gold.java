@@ -1,5 +1,6 @@
 public class Gold extends Item {
 
+    public int amt;
     private int amount;
 
     public Gold(int amount){

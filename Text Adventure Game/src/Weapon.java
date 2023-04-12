@@ -4,6 +4,7 @@ public class Weapon extends Item{
 
     public Weapon(String name, String description, int value, int damage) {
         super(name, description, value);
+        this.damage = damage;
     }
 
     public int getDamage(){
@@ -15,7 +16,7 @@ public class Weapon extends Item{
     }
 
     public String str(){
-        return String.format("{0}\n=====\n{1}\nValue: {2}\nDamage: {3}",
-                this.name, this.description, this.description, this.damage);
+        return String.format("%s\n=====\n%s\nValue: %d\nDamage: %d",
+                this.name, this.description, this.value, this.damage);
     }
 }

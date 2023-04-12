@@ -20,6 +20,10 @@ public class Action {
     public void setKwargs() {
         this.kwargs = kwargs;
     }
+    public void setKwargs(Enemy kwargs) {
+        this.kwargs = kwargs;
+    }
+
 
     public Action(Method method, String name, char hotkey, Enemy kwargs) {
         this.method = method;

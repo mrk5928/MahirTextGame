@@ -1,3 +1,4 @@
+/*
 public class Main {
     public static void main(String[] args) {
         System.out.println("Weapons and Accessories that you need in this game are: \n");
@@ -70,3 +71,5 @@ public class Main {
         world.load_tiles();
     }
 }
+
+ */

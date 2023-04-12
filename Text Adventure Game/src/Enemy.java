@@ -11,7 +11,8 @@ public class Enemy {
         this.damage = damage;
     }
 
-    public boolean is_alvie(){
+    public boolean is_alive() {
         return (this.hp > 0);
     }
+
 }
